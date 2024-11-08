@@ -1,8 +1,3 @@
-
-# Project Title
-
-A brief description of what this project does and who it's for
-
 # Package Version Tracker
 
 `package-version-tracker` is a command-line interface (CLI) tool that helps track the versions of npm packages in a project. It reads the `package.json` file, analyzes the versions of dependencies, and provides a report, allowing you to keep track of outdated or vulnerable packages easily.
