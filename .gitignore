@@ -1,0 +1,34 @@
+# Ignore CSV files
+*.csv
+
+# Node.js dependencies
+node_modules/
+
+# Log files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Build files
+dist/
+build/
+
+# Dependency directories
+jspm_packages/
+
+# Optional npm cache directory
+.npm
+
+# dotenv environment variables
+.env
+.env.local
+.env.*.local
+
+# TypeScript cache
+*.tsbuildinfo
+
+# MacOS system files
+.DS_Store
+
+# VS Code settings
+.vscode/

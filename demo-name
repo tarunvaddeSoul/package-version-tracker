@@ -1,0 +1,5 @@
+Package,Current Version,Last Checked,Latest Version,Update Needed,Notes,Type
+chalk,^4.1.2,2024-11-08T14:29:54.613Z,5.3.0,Yes,Update available: 5.3.0,dependency
+commander,^12.1.0,2024-11-08T14:29:54.981Z,12.1.0,Yes,Update available: 12.1.0,dependency
+fast-csv,^4.3.6,2024-11-08T14:29:55.252Z,5.0.2,Yes,Update available: 5.0.2,dependency
+fs-extra,^10.0.0,2024-11-08T14:29:55.507Z,11.2.0,Yes,Update available: 11.2.0,dependency
