@@ -1,3 +1,8 @@
+
+# Project Title
+
+A brief description of what this project does and who it's for
+
 # Package Version Tracker
 
 `package-version-tracker` is a command-line interface (CLI) tool that helps track the versions of npm packages in a project. It reads the `package.json` file, analyzes the versions of dependencies, and provides a report, allowing you to keep track of outdated or vulnerable packages easily.
@@ -25,3 +30,37 @@ You can install `package-version-tracker` globally or locally via npm:
 ### Global Installation
 ```bash
 npm install -g package-version-tracker
+```
+## Usage
+
+   ```bash
+   pvt --help
+   ```
+
+   This will display the available options, such as:
+
+   - `-d, --directory <directory>`: Directory containing the package.json file (default: current working directory)
+   - `-o, --output <output>`: Output file name for the CSV report (default: `{project-name}_package_version_report.csv`)
+   - `-d, --dependencies-only`: Only scan dependencies, exclude dev-dependencies
+
+   ## Examples
+
+   1. Generate a report in the current directory:
+      ```bash
+      pvt
+      ```
+
+   2. Generate a report in a different directory:
+      ```bash
+      pvt --directory /path/to/project
+      ```
+
+   3. Generate a report with only dependency versions (exclude dev-dependencies):
+      ```bash
+      pvt --dependencies-only
+      ```
+
+   4. Generate a report with a custom output file name:
+      ```bash
+      pvt --output my-report.csv
+      ```
