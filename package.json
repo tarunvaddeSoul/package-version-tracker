@@ -1,6 +1,6 @@
 {
   "name": "package-version-tracker",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "CLI tool to track npm package versions",
   "main": "dist/bin/pvt.js",
   "bin": {
