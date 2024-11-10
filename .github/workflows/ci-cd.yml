@@ -6,7 +6,7 @@ on:
       - main
   pull_request:
   release:
-    types: [published]  # Triggers when a new release is created
+    types: [published]  # Ensure release is specified here
 
 jobs:
   test:
@@ -18,7 +18,7 @@ jobs:
       - name: Set up Node.js
         uses: actions/setup-node@v3
         with:
-          node-version: '18'    # or any other version you prefer
+          node-version: '18'
           cache: 'npm'
 
       - name: Install dependencies
@@ -30,7 +30,7 @@ jobs:
   publish:
     needs: test
     runs-on: ubuntu-latest
-    if: github.event_name == 'release'
+    if: github.event_name == 'release' && github.event.action == 'published'
     steps:
       - name: Checkout repository
         uses: actions/checkout@v3
