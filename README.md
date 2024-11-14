@@ -1,5 +1,7 @@
 # Package Version Tracker
 
+[![npm version](https://badge.fury.io/js/package-version-tracker.svg)](https://www.npmjs.com/package/package-version-tracker)
+
 `package-version-tracker` is a command-line interface (CLI) tool that helps track the versions of npm packages in a project. It reads the `package.json` file, analyzes the versions of dependencies, and provides a report, allowing you to keep track of outdated or vulnerable packages easily.
 
 ## Why Was This Created?
