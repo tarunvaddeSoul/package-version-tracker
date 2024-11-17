@@ -1,6 +1,6 @@
 {
   "name": "package-version-tracker",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "CLI tool to track npm package versions",
   "main": "dist/bin/pvt.js",
   "bin": {
@@ -26,10 +26,14 @@
   },
   "license": "MIT",
   "dependencies": {
+    "@babel/parser": "^7.26.2",
+    "@babel/traverse": "^7.25.9",
+    "@babel/types": "^7.26.0",
     "chalk": "^4.1.2",
     "commander": "^12.1.0",
     "fast-csv": "^4.3.6",
-    "fs-extra": "^10.0.0"
+    "fs-extra": "^10.0.0",
+    "glob": "^11.0.0"
   },
   "devDependencies": {
     "@types/fs-extra": "^11.0.4",
