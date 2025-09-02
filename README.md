@@ -61,3 +61,5 @@ npm install -g package-version-tracker
       ```bash
       pvt --output my-report.csv
       ```
+
+<!-- Security scan triggered at 2025-09-02 21:07:01 -->
